@@ -75,7 +75,8 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "storybook": "start-storybook -p 6006 --no-dll",
-    "build-storybook": "build-storybook --no-dll"
+    "build-storybook": "build-storybook --no-dll",
+    "chromatic": "npx chromatic --project-token zxdqi6diash"
   },
   "eslintConfig": {
     "extends": [
@@ -158,6 +159,7 @@
     "@storybook/addon-links": "^6.0.28",
     "@storybook/addon-storyshots": "^6.0.28",
     "@storybook/react": "^6.0.28",
+    "chromatic": "^5.3.0",
     "react-is": "^17.0.1",
     "react-test-renderer": "^17.0.1"
   }
